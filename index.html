@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Cat World</title>
+  <link rel="stylesheet" href="assets/fonts/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <script src="assets/js/jquery-2.2.4.js"></script>
+  <script src="assets/js/index.js" rel="text/javascript"></script>
+
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 no-padding">
+      <div class="row">
+        <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+          <div id="totalSouls" class="totalSouls col-lg-7 col-md-7 col-sm-7 col-xs-7">
+            <p id="ames" class="nombreSouls">0 Âme</p>
+          </div>
+        </header>
+      </div>
+
+      <div class="row">
+        <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+          <!-- Pages dressing -->
+          <!-- Page tumblr 1-->
+          <div class="pageblog1 col-lg-3 col-md-3 display">
+            <div id="pageBlog1" class="page">
+              <div class="row-inline">
+                <p class="name col-lg-6 col-md-6">Mr.Cat</p>
+                <div class="col-lg-6 col-md-6 text-right">
+                  <button id="uploadBlog1" class="upload">Upload</button>
+                  <p id="prixBlog1" class="prix">10 S</p>
+                </div>
+              </div>
+              <div class="rowperso">
+                <div class="image_profil col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4"><div class="image50"></div></div>
+              </div>
+              <div class="rowperso">
+                <p class="name col-lg-offset-4 col-lg-4 text-center">Mr.Cat</p>
+                <div class="row-inline">
+                  <div class="contenu col-lg-4 col-md-4"><div class="image50"></div></div>
+                  <div class="contenu col-lg-4 col-md-4"><div class="image50"></div></div>
+                  <div class="contenu col-lg-4 col-md-4"><div class="image50"></div></div>
+                </div>
+              </div>
+              <div class="row-inline">
+                <div id="dejaUpBlog1" class="deja-upload col-lg-6 col-md-6"><p>0 Photos</p></div>
+                <div id="likeSoulBlog1" class="cumul-soul col-lg-6 col-md-6 text-right"><p>0 Follower</p></div>
+              </div>
+            </div>
+          </div>
+          <!--Fin page tumblr 1 -->
+
+          <!--Debut page tumblrV2 -->
+          <div class="pageBlog2 col-lg-3 col-md-3 display">
+            <div id="pageBlog2" class="page">
+              <div class="row-inline">
+                <div class="col-lg-6 col-md-6">
+                  <p class="name">Mr.Cat</p>
+                </div>
+                <div class="col-lg-6 col-md-6 text-right">
+                  <button id="uploadBlog2" class="upload">Upload</button>
+                  <p id="prixBlog2" class="prix">100 S</p>
+                </div>
+              </div>
+              <div class="rowperso">
+                <div class="contenu"><div class="image100"></div></div>
+              </div>
+              <div class="row-inline">
+                <p id="likeSoulBlog2" class="cumul-soul col-lg-6 col-md-6">0 Likes</p>
+                <p id="dejaUpBlog2" class="deja-upload col-lg-6 col-md-6 text-right">0 photos</p>
+              </div>
+            </div>
+          </div>
+          <!-- fin TumbrlV2 -->
+
+          <!-- Début article intro -->
+          <div class="pageArticle col-lg-6 col-md-6 display">
+            <div id="pageArticle" class="page">
+              <div class="row-inline">
+                <p class="name col-lg-2 col-md-2">Mr.Cat</p>
+                <p class="col-lg-2 col-md-2">14:02</p>
+                <p id="dejaUpArticle" class="deja-upload col-lg-4 col-md-4">2 articles en ligne</p>
+                <p id="likeSoulArticle"class="cumul-soul col-lg-4 col-md-4 text-right" >320 J'aimes</p>
+              </div>
+              <div class="contenu col-lg-12 col-md-12">
+                <p>Ici il y aura un super titre de faux article</p>
+                <p>Prudens sunt vulgus efferens oppido quo liberalium regebat nobilem insolenter modum forensium minus prudens doctrinarum usibus forensium avidis huius et sed crebros asperos haec haec Orfitus negotiorum quo efferens.</p>
+              </div>
+              <div class="row-inline">
+                <div id="prixArticle" class="prix col-lg-10 col-md-10 text-right"><p>10.00</p></div>
+                <button id="uploadArticle" class="upload">Upload</button>
+              </div>
+            </div>
+          </div>
+          <!-- Fin article -->
+          <div id="buttonPurr" class="buttonPurr"></div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Interface Magasin/option/info -->
+    <div class="no-padding col-lg-3 col-md-3 col-sm-3 col-xs-3">
+      <div class="interface">
+        <!--- Info User -->
+        <div class="row">
+          <div class="no-padding col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <div class="image_profil "></div>
+          </div>
+          <div class="no-padding col-lg-7 col-md-7 col-sm-7 col-xs-7">
+            <p class="name">MR.CAT</p>
+            <p class="rang">Rang de domination</p>
+          </div>
+        </div>
+        <!-- Boite message (d'erreur') -->
+        <div class="row">
+          <div class="consolelog col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          </div>
+        </div>
+        <!-- Zone d'Achat -->
+        <div class="row">
+          <div class="total-signIn">
+            <p class="titre_signin display">Etendre son empire</p>
+
+            <div class="signinBlog1 display buttonInscription col-lg-offset-2 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+              <div class="buttonPart2"></div>
+              <div class="buttonPart1"><p class="text-center">S'inscrire</p></div>
+            </div>
+
+            <div class="signinBlog2 display buttonInscription col-lg-offset-2 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+              <div class="buttonPart2"></div>
+              <div class="buttonPart1"><p class="text-center">S'inscrire</p></div>
+            </div>
+
+            <div class="signinArticle display buttonInscription col-lg-offset-2 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+              <div class="buttonPart2"></div>
+              <div class="buttonPart1"><p class="text-center">S'inscrire</p></div>
+            </div>
+
+          </div>
+          <!-- Menu réduit page-bog = Achat upload + stats -->
+          <!-- Reduction blog1-->
+          <div class="row achat-upload1 display">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <div class="logoPage"></div>
+            </div>
+            <div class=" col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <p class="prix text-right">10 S</p>
+              <p class="nomPage col-lg-8 col-md-8 col-sm-8 col-xs-8">Blog 1</p>
+              <button class="upload col-lg-4 col-md-4 col-sm-4 col-xs-4">Upload</button>
+            </div>
+          </div>
+          <!-- Reduction blog2 -->
+          <div   class="row achat-upload2 display">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <div class="logoPage"></div>
+            </div>
+            <div class=" col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <p class="prix text-right">250 S</p>
+              <p class="nomPage col-lg-8 col-md-8 col-sm-8 col-xs-8">Blog Article</p>
+              <button class="upload col-lg-4 col-md-4 col-sm-4 col-xs-4">Upload</button>
+            </div>
+          </div>
+          <!-- Reduction Article -->
+          <div class="row achat-uploadArt display">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <div class="logoPage"></div>
+            </div>
+            <div class=" col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <p class="prix text-right">100 S</p>
+              <p class="nomPage col-lg-8 col-md-8 col-sm-8 col-xs-8">Blog 2</p>
+              <button class="upload col-lg-4 col-md-4 col-sm-4 col-xs-4">Upload</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="logo_notif" onClick="openShop()">
+  <div id="notification" class="notification">
+  <p> 1 </p>
+</div>
+</div>
+
+<div id="shop" class="shop">
+<div class="titre_shop">
+<p>Etendre son empire</p>
+<div class="bloc_achat"> -->
+<!-- Ajouter achat Sign In -->
+<!-- <button id="signin_blog" class="signin_blog" onClick="ajoutPage('pageBlog')">Sign In<br/>BlogSpot</button>
+</div>
+</div>
+<div class="titre_shop">
+<p>Modules</p>
+<div class="bloc_achat"> -->
+<!-- Ajouter achat modules/bonus -->
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!-- Fin interface -->
+
+</div>
+</body>
+</html>
